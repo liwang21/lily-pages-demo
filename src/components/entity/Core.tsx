@@ -57,11 +57,7 @@ const Core = (props: CoreProps) => {
             <Address address={profile.address} />
             <Link
               className="Link--primary Link--underline font-bold mt-2"
-              href={`${getDirections(
-                profile.address,
-                profile.ref_listings,
-                profile.googlePlaceId
-              )}`}
+              href={`${getDirections(profile.address, profile.ref_listings)}`}
             >
               Get Directions
             </Link>

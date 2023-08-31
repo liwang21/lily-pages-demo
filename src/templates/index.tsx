@@ -51,7 +51,7 @@ export const config: TemplateConfig = {
       "yextDisplayCoordinate",
       "description",
       "hours",
-      "googlePlaceId",
+      //"googlePlaceId",
       "photoGallery",
       "ref_listings.listingUrl",
       "ref_listings.publisher",
@@ -69,7 +69,7 @@ export const config: TemplateConfig = {
       // Core Fields
       "address",
       "mainPhone",
-      "googlePlaceId",
+      //"googlePlaceId",
       "tollFreePhone",
       "emails",
       "hours",
